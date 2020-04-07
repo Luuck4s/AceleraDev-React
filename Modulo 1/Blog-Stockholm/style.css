@@ -1,0 +1,121 @@
+body {
+  background-color: #f6f6f6;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff;
+  padding: 15px;
+}
+
+.navbar-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu ul li {
+  font-size: 1rem;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.navbar-menu ul li:hover{
+  color: #333;
+}
+
+#active{
+  color: #333;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/1941869/pexels-photo-1941869.jpeg?cs=srgb&dl=flor-bonita-margarita-papel-de-parede-do-tumblr-1941869.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.header div{
+  background-color: #fff;
+  padding: 10px 40px;
+  font-size: 2rem;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card{
+  width: 250px;
+  margin: 30px;
+}
+
+.card-header img{
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #fff;
+}
+
+.card-content h1{
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.card-content h2{
+  font-size: 0.67rem;
+  margin: 5;
+  font-weight: 100;
+  color: #333;
+}
+
+.card-content p{
+  font-size: 0.7rem;
+}
+
+.card-footer{
+  display: flex;
+  font-size: 0.67rem;
+  justify-content: space-between;
+  color: #333;
+}
+
+.card-footer a{
+  text-decoration: none;
+  color: #333;
+}
+
+footer{
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  padding: 20px 30px 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
