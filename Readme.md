@@ -9,7 +9,7 @@
   
 ## :telescope: Sobre
  
-Repositório contendo o meu código referente aos desafios do AceleraDev React.
+Repositório contendo projetos desenvolvidos durante o AceleraDev React Online.
   
   
 ## :books: Módulos
