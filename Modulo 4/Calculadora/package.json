@@ -1,0 +1,17 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Projeto de calculadora CLI ",
+  "main": "index.js",
+  "author": "Lucas Lima",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
