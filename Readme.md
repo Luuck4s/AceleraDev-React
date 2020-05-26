@@ -14,6 +14,7 @@ Repositório contendo projetos desenvolvidos durante o AceleraDev React Online.
   
 ## :books: Módulos
 
+### [Fashionista: Projeto Prático](https://github.com/Luuck4s/Fashionista)
 
 ### [Módulo 1: Browser Engine, Motores e Debugging](https://github.com/Luuck4s/AceleraDev-React/tree/master/Modulo%201)
 
