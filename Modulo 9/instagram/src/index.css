@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding-top: 56px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fafafa;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 728px) {
+  .container {
+    width: 728px;
+  }
+}
+
+.stories {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  padding: 16px 0;
+}
+
+.stories__container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+@media screen and (min-width: 728px) {
+  .feed {
+    padding: 16px 0;
+  }
+}
